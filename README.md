@@ -1,2 +1,2 @@
 # vx-demo
-to learn wechat
+### 用作微信小程序学习
