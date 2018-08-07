@@ -7,7 +7,47 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    constellation:[{
+      name:'水瓶座',
+      icon:''
+    },
+    {
+      name:'双鱼座',
+      icon:'icon-shuangzizuo'
+    },
+    {
+      name:'白羊座',
+      icon:''
+    },{
+      name:'金牛座',
+      icon:''
+    },{
+      name:'双子座',
+      icon:''
+    },{
+      name:'巨蟹座',
+      icon:''
+    },{
+      name:'狮子座',
+      icon:''
+    },{
+      name:'处女座',
+      icon:''
+    },{
+      name:'天秤座',
+      icon:''
+    },{
+      name:'天蝎座 ',
+      icon:''
+    },{
+      name:'射手座 ',
+      icon:''
+    },{
+      name:'摩羯座 ',
+      icon:''
+    }
+  ]
   },
   //事件处理函数
   bindViewTap: function () {

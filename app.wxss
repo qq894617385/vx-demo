@@ -1,4 +1,7 @@
 /**app.wxss**/
+/* iconfont.wxss 的引入方式 */
+@import "/lib/style/icon.wxss";
+
 .container {
   height: 100%;
   display: flex;
